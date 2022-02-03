@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>rmdigital</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          
+          <div class="logo">
+            <a href="#home" >RM<span>DIGITAL</span></a>
+          </div>
+
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+
+          <div class="links">
+            <a href="#aboutus" >Nosotros</a>
+            <a href="#services" >Servicios</a>
+            <a href="#careers" >Planes</a>
+            <a href="#contacts" >Contacto</a>            
+          </div>
+
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo">RM<span>DIGITAL</span></a>
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#aboutus" onclick="toggleMobileNavigation()">Nosotros</a>
+            <a href="#services" onclick="toggleMobileNavigation()">Servicios</a>
+            <a href="#careers" onclick="toggleMobileNavigation()">Planes</a>
+            <a href="#contacts" onclick="toggleMobileNavigation()">Contacto</a>
+          </div>
+        </nav>
+      </div>
+
+<!-- Contenido de la pagina principal home -->
+
+      <div class="hero" id="home">
+        <div class="text container">
+          <p class="pre-title">AGENCIA DE MEDIOS DIGITALES</p>
+          <h1 class="title">RM<span>DIGITAL</span></h1>
+          <p class="post-title">Contenido-Publicidad-Audiovisual</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#services">Nuestros Servicios</a> 
+        </div>
+      </div>
+
+<!-- Segmento de sobre nosotros about us  -->
+
+      <div class="about container w3-padding-large" id="aboutus">
+        <div class="text-one">
+
+          <!-- Texto 1 sección nosotros  -->
+
+          <h2>Nosotros</h2>
+          <p>Presentación de quienes somos, una breve reseña de lo que hacemos y porque lo hacemos.
+            .
+
+          </p>
+
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="aboutus.html">Conocer más</a> 
+        </div>
+       
+          <!-- Texto 2 Vision de la empresa -->
+
+        <div class="text-one">
+          <h2>Nuestra Visión</h2>
+          <p>aqui debe estar escrita nuestra visión como empresa, con texto y desarrollando bien la idea, redaccion.</p>
+
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="vision.html">Saber más</a>
+          <!-- Modificar href hacía la pagina correspondiente (pendiente) --> 
+        </div>
+      </div>
+
+<!-- Segmento información del equipo modificacion disponible de cantidades de premios, personal, clientes etc. -->
+
+      <div class="w3-panel w3-highway-blue numbers">
+        <h2 class="w3-center w3-xxxlarge">NUESTRO EQUIPO</h2>
+      
+        <p class="w3-center w3-xxxlarge show-medium">
+          <?xml version="1.0" encoding="utf-8"?>
+          <svg x="0px" y="0px" width="36" fill="#bed9f3" stroke="#bed9f3"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <g id="Down-arrow">
+
+            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
+              c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
+              c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
+              c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
+              L17.2929993,29.7070007z"/>
+            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
+              C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
+          </svg>
+        </p>
+        
+        <!-- Contenedores de cantidades e item del equipo  -->
+
+        <div class="container w3-padding-large">
+          <div class="text">
+            <p class="number">00</p>
+            <p>Clientes</p>
+          </div>
+          <div class="text">
+            <p class="number">00</p>
+            <p>Colaboradores</p>
+          </div>
+          <div class="text">
+            <p class="number">00</p>
+            <p>Años de experiencia</p>
+          </div>
+          <div class="text">
+            <p class="number">00</p>
+            <p>Premios</p>
+          </div>
+        </div>
+      </div>
+
+<!-- Segmento Nuestros servicios opciones en cajas -->
+
+      <div class="services container" id="services">
+        <h2 class="w3-center">Nuestros Servicios</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>DESARROLLO WEB</h3>
+            <div class="card-text">
+              <p>Construiremos su sitio web y cumpliremos con todas sus necesidades. La optimización SEO está incluida.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>DESARROLLO MÓVIL</h3>
+            <div class="card-text">
+              <p>Construiremos su aplicación móvil y cumpliremos con todas sus necesidades. La optimización SEO está incluida.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>SEO Y OPTIMIZACIÓN DEL RENDIMIENTO</h3>
+            <div class="card-text">
+              <p>Optimizaremos su sitio web existente o aplicación móvil en SEO y rendimiento.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>CONSULTORIA</h3>
+            <div class="card-text">
+              <p>Ofrecemos <span class=""></span> consulta sobre su idea y le ofrecemos el mejor enfoque sobre cómo realizarla.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>MARKETING DIGITAL</h3>
+            <div class="card-text">
+              <p>Nos aseguraremos de que su idea sea bien conocida en un intento de reunir una base de usuarios y expandir su idea.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>ALOJAMIENTOS</h3>
+             <div class="card-text">
+              <p>Nos encargaremos del proceso de organización y gestión de eventos para su público. Solo necesitas aparecer en el evento, como anfitrión.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Sección en paralelo para descripción de planes -->
+
+      <div class="careers container" id="careers">
+        <h2 class="w3-center">PLANES DISPONIBLES</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+
+            <div class="card w3-card-4">
+              <header class="w3-container w3-indigo">
+                 <h3>PLAN BASICO</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                  <h4>Especificaciones</h4>
+                  <ul style="list-style-type: none;">
+                    <li>linea 1</li>
+                    <li>linea 2</li>
+                    <li>linea 3</li>
+                    <li>linea 4</li>
+                    <li>linea 5</li>
+                    <li>linea 6</li>
+                  </ul>
+                  <h4>contiene</h4>
+                  <ul style="list-style-type: none;">
+                    <li>linea 1</li>
+                    <li>linea 2</li>
+                    <li>linea 3</li>
+                    <li>linea 4</li>
+                  </ul> 
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contacts">Contratar</a>
+              </footer>
+            </div>
+
+            <div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>PLAN ESTANDAR</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Especificaciones</h4>
+                <ul style="list-style-type: none;">
+                  <li>linea1</li>
+                  <li>linea2</li>
+                  <li>linea3</li>
+                  <li>linea4</li>
+                  <li>linea5</li>
+                  <li>linea6</li>
+                  <li>linea7</li>
+                </ul>
+                <h4>contiene</h4>
+                <ul style="list-style-type: none;">
+                  <li>linea1</li>
+                  <li>linea2</li>
+                  <li>linea3</li>
+                  <li>linea4</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contacts">Contratar</a>
+              </footer>
+            </div>
+
+            <div class="card w3-card-4">
+              <header class="w3-container w3-indigo">
+                 <h3>PLAN PREMIUM</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Especificaciones</h4>
+                <ul style="list-style-type: none;">
+                  <li>linea1</li>
+                  <li>linea2</li>
+                  <li>linea3</li>
+                  <li>linea4</li>
+                  <li>linea5</li>
+                </ul>
+                <h4>contiene</h4>
+                <ul style="list-style-type: none;">
+                  <li>linea1</li>
+                  <li>linea2</li>
+                  <li>linea3</li>
+                  <li>linea4</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contacts">Contratar</a>
+              </footer>
+            </div>
+        </div>
+      </div>
+
+<!-- Sección de Contacto y formulario de email -->
+
+      <div class="contact container" id="contacts">
+        <div class="short-contact">
+          <h2>Contacto</h2>
+          <p class="w3-xlarge">¡Nos gustaría saber de ti!</p>
+          <div class="w3-large w3-margin-top contact-info">
+            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;"><a href="agencia@rmdigital.cl">agencia@rmdigital.cl</a></span><br>
+            <i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="+56987718500">+56987718500</a></span><br>
+          </div>
+          <div class="w3-large w3-margin-top contact-info">
+            <i class="fa fa-linkedin"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- LinkedIn</a></span><br>
+            <i class="fa fa-facebook"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;"> - Facebook</a></span><br>
+            <i class="fa fa-twitter"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Twitter</a></span><br>
+          </div>
+
+        </div>
+
+        <div class="form w3-margin-top">
+          <div class="container w3-round-xlarge">
+            <form class="w3-highway-blue w3-padding-large w3-round-large">
+              <label for="fname">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Juan Rodriguez">
+
+              <label for="lname">email</label>
+              <input type="text" id="email" name="email" placeholder="jrodriguez@gmail.com">
+
+              <label for="subject">Comentario</label>
+              <textarea id="subject" name="subject" placeholder="Escribe aquí tu comentario..." style="height:200px"></textarea>
+              
+              <p>Al enviar este formulario, usted acepta nuestras <a href="privacy-policy.html" target="_blank">Politica de privacidad</a></p><br>
+              <input class="w3-metro-blue" type="submit" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class=" w3-highway-blue w3-padding-large" id="footer">
+        <p class="w3-center logo">© 2022 - RM<span>DIGITAL</span> - Todos los derechos reservados</p>
+      </div>
+
+  <script>
+    function toggleMobileNavigation() {
+      const mobileNavigation = document.getElementById("mobile-sidenav");
+      mobileNavigation.classList.toggle('mobile-links-active');
+    }
+</script>
+  </body>
+</html>
