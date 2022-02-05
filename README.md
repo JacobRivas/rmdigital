@@ -1,11 +1,11 @@
 # rmdigital
 
 Desarollo de un caso Practico (pagina web)
-Utilizando todos los recursos aprnedidos en el módulo.
+Utilizando todos los recursos aprendidos en el módulo.
 
 Pagina web agencia digital
 
-Se utilizá una plantilla descargada para editar su contenido y detctar que codigos se mantendran para este caso en particula.
+Se utilizá una plantilla descargada para editar su contenido y detectar que codigos se mantendran para este caso en particular.
 
 RM DIGITAL 
 
