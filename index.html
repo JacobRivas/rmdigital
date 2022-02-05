@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-
+  
   </head>
 
   <body>
@@ -113,19 +113,19 @@
 
         <div class="container w3-padding-large">
           <div class="text">
-            <p class="number">00</p>
-            <p>Clientes</p>
+            <p class="number">10</p>
+            <p>Paises</p>
           </div>
           <div class="text">
-            <p class="number">00</p>
+            <p class="number">20</p>
             <p>Colaboradores</p>
           </div>
           <div class="text">
-            <p class="number">00</p>
+            <p class="number">08</p>
             <p>Años de experiencia</p>
           </div>
           <div class="text">
-            <p class="number">00</p>
+            <p class="number">03</p>
             <p>Premios</p>
           </div>
         </div>
@@ -291,9 +291,11 @@
 
         </div>
 
+<!-- Inicio Formulario donde recoger datos  -->
         <div class="form w3-margin-top">
           <div class="container w3-round-xlarge">
-            <form class="w3-highway-blue w3-padding-large w3-round-large">
+            <form class="w3-highway-blue w3-padding-large w3-round-large" method="get"  action="" >
+             
               <label for="fname">Nombre</label>
               <input type="text" id="name" name="name" placeholder="Juan Rodriguez">
 
@@ -304,12 +306,12 @@
               <textarea id="subject" name="subject" placeholder="Escribe aquí tu comentario..." style="height:200px"></textarea>
               
               <p>Al enviar este formulario, usted acepta nuestras <a href="privacy-policy.html" target="_blank">Politica de privacidad</a></p><br>
-              <input class="w3-metro-blue" type="submit" value="Enviar">
+              <input class="w3-metro-blue" id="boton" type="submit" value="Enviar">
             </form>
           </div>
         </div>
       </div>
-
+<!-- termino Formulario donde recoger datos  -->
       <div class=" w3-highway-blue w3-padding-large" id="footer">
         <p class="w3-center logo">© 2022 - RM<span>DIGITAL</span> - Todos los derechos reservados</p>
       </div>
@@ -320,5 +322,7 @@
       mobileNavigation.classList.toggle('mobile-links-active');
     }
 </script>
+
+<script> src="script1.js" </script>
   </body>
 </html>
