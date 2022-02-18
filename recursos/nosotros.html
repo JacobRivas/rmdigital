@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>rmdigital</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          
+          <div class="logo">
+            <a href="#home" >RM<span>DIGITAL</span></a>
+          </div>
+
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+
+          <div class="links">
+            <a href="#services" >Servicios</a>
+            <a href="#contacts" >Contacto</a>            
+          </div>
+
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo">RM<span>DIGITAL</span></a>
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#services" onclick="toggleMobileNavigation()">Servicios</a>
+            <a href="#contacts" onclick="toggleMobileNavigation()">Contacto</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="services container" id="historia">
+        <h2 class="w3-center">Nuestra Historia</h2>
+        <div class="w3-center w3-padding-large"> 
+          <p>hola aqui tengo que redactar parte d ela historia de la empresa
+            En la obra “Practice of Advertising”, del autor Adrian Mackay, se establece que la primera agencia de publicidad de la cual se tiene registro fue creada por William Taylor y comenzó a funcionar en Londres en 1786. Taylor se inició en el negocio investigando y conociendo que periódicos funcionaban en las distintas ciudades de Inglaterra para canalizar la publicidad de Londres hacia las distintas publicaciones de provincias.
+          </p> 
+        </div>
+      </div>
+
+      <div class="container w3-card-2 w3-padding-large">
+        <div class="row">
+          <div class="col-sm">
+            <div class="w3-card-2" style="width:100%">
+              <img src="images/Colaborador 1.jpg" alt="Persona1" style="width:100%">
+              <div class="w3-container">
+                <h4><b>Fabian Poblete</b></h4>
+                <p>Administrativo
+                  Encargado de la gestión administrativa y contable 
+                 Recurso Humano </p><br>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="w3-card-2" style="width:100%">
+              <img src="images/Javier.png" alt="Persona1" style="width:100%">
+              <div class="w3-container">
+                <h4><b>Carlos Rodriguez</b></h4>
+                <p>Encargado del departamento de marketing digital y de medios digitales </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="w3-card-2" style="width:100%">
+              <img src="images/Colaborador 2.jpg" alt="Persona1" style="width:100%">
+              <div class="w3-container">
+                <h4><b>Carlos Rodriguez</b></h4>
+                <p> Desarrollo de paginas web y manejo de redes sociales 
+                  comunity manager 
+                creador de contenidos digitales </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <br>
+ 
+      <div class=" w3-highway-blue w3-padding-large" id="footer">
+        <p class="w3-center logo">© 2022 - RM<span>DIGITAL</span> - Todos los derechos reservados</p>
+      </div>
+
+  <script>
+    function toggleMobileNavigation() {
+      const mobileNavigation = document.getElementById("mobile-sidenav");
+      mobileNavigation.classList.toggle('mobile-links-active');
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
