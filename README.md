@@ -10,6 +10,7 @@ Se utilizá una plantilla descargada para editar su contenido y detectar que cod
 RM DIGITAL 
 Pagina pricipal Plantilla W3schools editada y adaptada.
 Utilizada en conjunto con Bootstraps
+utilizando las clases para agilizar la estructura.
 
 Definición del caso:
 
