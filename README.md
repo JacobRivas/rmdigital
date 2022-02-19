@@ -32,6 +32,12 @@ Login y formulario de acceso a administrativos de empresa.
 -usuario 
 -contraseña
 
+Esquema de paginas:
+-Home (formulario de suscripción)
+-Logo RMDIGITAL  redirección a Login (formulario de registro)
+- Pagina Nosotros ingreso desde boton  -CONOCER MAS- 
+
+
 
 
 
